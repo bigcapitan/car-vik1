@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Машина X</title>
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body class="dark">
+ 
+       <header>
+        <div class="header">
+            <div class="logo">
+                <img src="./img/Логотип.png" alt="Logo">
+                <h1>Car-Vik</h1>
+            </div>
+            <nav class="menu">
+                <ul> 
+                    <li><a href="../index.html">Главная</a></li>
+                    <li><a href="#gallery">галерея</a></li>
+                    <li><a href="https://t.me/Thebig_cap">контакты </a></li>
+                </ul>
+            </nav>
+            <button class="icon-toggle-btn" id="iconToggleBtn">
+        <img id="toggleIcon" src="./img/icons8-солнце-50.png" alt="Переключить иконку">
+    </button>
+        </div>
+    </header>
+ <section id="start" class="start">
+    <div class="start__container">
+        <h1>NISSAN GTR R35</h1>
+        <p> суперкар, выпускаемый компанией Nissan Motor. Представлен в качестве серийной модели в Токийском автосалоне 24 октября 2007 года, продажи начались в 2008 году в Японии, затем в США и Европе.</p>
+    <section class="slider">
+      <div class="slider__container">
+        <div class="slider__wrapper">
+          <div class="slider__item"><img class="slider-img" src="./img/pered.webp" alt="Перед"></div>
+          <div class="slider__item"><img class="slider-img" src="./img/zad.jpg" alt="Зад"></div>
+          <div class="slider__item"><img class="slider-img" src="./img/bok.jpg" alt="Бок"></div>
+          <div class="slider__item"><img class="slider-img" src="./img/salon.jpg" alt="Салон"></div>
+          <div class="slider__item"><img class="slider-img" src="./img/motor.jpg" alt="Мотор"></div>
+        </div>
+        <button class="slider__arrow slider__arrow--prev">&#10094;</button>
+        <button class="slider__arrow slider__arrow--next">&#10095;</button>
+      </div>
+    </section>
+    <button class="more-btn">Узнать дальше</button>
+  </div>
+</section>
+
+    <section id="specs">
+      <h2>Технические характеристики</h2>
+      <ul>
+        <li>Двигатель: VR30DDTT</li>
+        <li>Лошадиные силы: 480 л.с</li>
+        <li>Мощность: 353 кВт</li>
+        <li>Разгон до 100 км/ч: 2.7 сек</li>
+        <li>Макс. скорость: 310 км/ч</li>
+        <li>Расход топлива: 17л л/100км</li>
+      </ul>
+    </section>
+
+    <section id="gallery">
+      <h2>Фотогалерея</h2>
+      <div class="gallery">
+        <img src="./img/nissan gtr 1.jpg" alt="Фото 1">
+        <img src="./img/nissan gtr 2.jpg" alt="Фото 2">
+        <img src="./img/nissan gtr 3.jpg" alt="Фото 3">
+       
+          <img src="./img/nissan gtr 4.jpg" alt="Фото 4" class="hidden">
+          <img src="./img/nissan gtr 5.jpg" alt="Фото 5" class="hidden">
+          <img src="./img/nissan gtr 6.jpg" alt="Фото 6" class="hidden">
+          <img src="./img/nissan gtr 7.jpg" alt="Фото 7" class="hidden">
+          <img src="./img/nissan gtr 8.jpg" alt="Фото 8" class="hidden">
+          <img src="./img/nissan gtr 9.jpg" alt="Фото 9" class="hidden">
+      </div>
+      <button id="toggle-gallery">Показать ещё</button>
+    </section>
+
+    <section id="video">
+      <h2>Видео</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/vJitd8yqrEU?si=VdUxvN0CL4Hh_JAE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <section id="reviews">
+      <h2>Отзывы</h2>
+      <!-- Пример одного отзыва с картинкой -->
+<div class="comment">
+  <img class="comment-avatar" src="./img/icons8-пользователь-30 (1).png" alt="Аватар пользователя">
+  <div class="comment-text">
+    <strong>klum:</strong> ДА ОНА НЕ ЕДЕТ А МЧИТ! ЛУЧШИЙ АВТОМОБИЛЬ В МИРЕ!
+  </div>
+</div><!-- Пример одного отзыва с картинкой -->
+
+<div class="comment">
+  <img class="comment-avatar" src="./img/icons8-пользователь-30 (1).png" alt="Аватар пользователя">
+  <div class="comment-text">
+    <strong>@ngelina:</strong> машина правда крутая, муж очень рад
+  </div>
+</div>
+            <h1>хотите оставить свой отзыв?</h1>
+      <form id="review-form">
+        <input type="text" id="name" placeholder="Ваше имя" required>
+        <textarea id="comment" placeholder="Ваш отзыв" required></textarea>
+        <button type="submit">Отправить</button>
+      </form>
+    </section>
+  </main>
+
+ 
+<footer class="footer">
+    <div class="footer__container">
+        <ul class="footer__links">
+            <li><a href="#start">Главная</a></li>
+            <li><a href="#specs">Характеристики</a></li>
+            <li><a href="#gallery">Галерея</a></li>
+            <li><a href="#video">Видео</a></li>
+            <li><a href="#review">Отзывы</a></li>
+        </ul>
+        <div class="footer__logo">
+            <img src="./img/Логотип.png" alt="Логотип Toyota Mark II">
+        </div>
+        <div class="footer__social">
+            <a href="https://www.instagram.com/bolshoikapitan/" target="_blank" class="social__link">
+                <img src="./img/instagram (5).png" alt="Instagram"> 
+            </a>
+            <a href="https://t.me/Thebig_cap" target="_blank" class="social__link">
+                <img src="./img/telegram (5).png" alt="Telegram"> 
+            </a>
+            <a href="https://github.com/bigcapitan" target="_blank" class="social__link">
+                <img src="./img/icons8-github-32.png" alt="GitHub"> 
+            </a>
+        </div>
+        <p class="footer__copyright">© 2025 Car-vik. Все права не защищены.</p>
+    </div>
+</footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
